@@ -1,0 +1,18 @@
+test:
+    endPoint: http://********.mns.cn-hangzhou.aliyuncs.com/           #环境的URL
+    accessId: LTAIF***********                                        #阿里云身份验证码
+    accessKey: 5WbyEo5fSx********************                         #阿里云身份验证密钥
+    queue:
+        test-obj:
+            01: test-queue-01
+            02: test-queue-02
+            03: test-queue-03
+            04: test-queue-04
+            05: test-queue-05
+            fanout:
+                1: test-queue-06
+                2: test-queue-07
+                3: test-queue-08
+                4: test-queue-09
+                5: test-queue-10
+                6: test-queue-11
